@@ -7,7 +7,6 @@ def home():
 def table():
     if request.method == 'POST':
         #access the data from form
-        ## Age
         table = int(request.form["table"])
         iteration = int(request.form['upto'])
         table_data=[]
